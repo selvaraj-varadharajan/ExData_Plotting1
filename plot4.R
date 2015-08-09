@@ -43,7 +43,7 @@ plot(data$Time, data$Global_reactive_power, pch = "." , xlab = "datetime",
 lines(data$Time, data$Global_reactive_power)
 
 
-dev.copy(png, ".\\Plot4.png", width = 480, height = 480)
+dev.copy(png, ".\\plot4.png", width = 480, height = 480)
 dev.off()
 
 
